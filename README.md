@@ -8,9 +8,10 @@ This directive will display the country's name in `<option>` but will bind your 
 
 How to USE
 ----------------------
-*HTML*
-  1. Add the markup ```<div country-select ng-model="selectedCountry"></div>```
-  2. Add the dependency to your app's module ```angular.module('myApp', ['countrySelect']);```
+  * Add the dependency to your app's module ```angular.module('myApp', ['countrySelect']);```
 
+*HTML*
+  * Add the markup ```<div country-select ng-model="selectedCountry"></div>```
+ 
 *HAML*
-  1. Add the markup ```%div{ country_select: true, ng_model: "selectedCountry" }```
+  * Add the markup ```%div{ country_select: true, ng_model: "selectedCountry" }```
